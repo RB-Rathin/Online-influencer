@@ -1,39 +1,96 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family: 'Roboto', sans-serif
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #323639;
 }
-main{
-    width:90%;
-    margin:0 auto; 
+
+main {
+    width: 80%;
+    margin: 0 auto;
 }
-h3{ 
-    color:#323639;
-    font-size:22px;
+
+h3 {
+    color: #323639;
+    font-size: 22px;
     font-weight: 700;
 }
+
 /* -------------------
 ----Start-navation---*/
-nav{
-    display:flex;
+nav {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top:20px;
+    padding-top: 20px;
+    margin-bottom: 60px;
 }
-nav>.manu-ber>ul{
-    display:flex;
-    
+
+nav>.manu-ber>ul {
+    display: flex;
+
 }
-nav>.manu-ber>ul>li{
+
+nav>.manu-ber>ul>li {
     list-style-type: none;
-    margin-left:10px;
+    margin-left: 20px;
 }
-nav>.manu-ber>ul>li>a{
+
+nav>.manu-ber>ul>li>a {
     text-decoration: none;
-    color:#323639;
-    font-weight:700;
-    font-size:18px;
+    color: #323639;
+    font-weight: 700;
+    font-size: 18px;
 }
+
 /* -------------------
 ----End-navation---*/
+/*--------------------
+ Start-baner-section */
+.baner-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.baner-section .baner-deteils h1 {
+    font-size: 40px;
+    transition:1s;
+    transition-duration:2s;
+}
+.baner-section .baner-deteils h1:hover{
+    color:blue;
+    text-shadow:2px -3px 5px rgba(14, 231, 231, 0.651);    
+}
+
+.baner-section .baner-deteils p {
+    width: 80%;
+    font-size: 16px;
+    color: #323639;
+    font-weight: 600;
+    padding: 30px 0px;
+    
+}
+
+.baner-section .baner-deteils>.banner-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.baner-section .baner-deteils .link-button {
+    padding: 10px 20px;
+    background-image: linear-gradient(rgba(0, 255, 255, 0.568),rgba(0, 0, 255, 0.678));
+    border: .2px solid aqua;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 25px;
+}
+.baner-section .baner-deteils>.banner-button i{
+   
+    color:black;
+}
+
+/*--------------------
+ End-baner-section */
