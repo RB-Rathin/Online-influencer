@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif
+}
+main{
+    width:90%;
+    margin:0 auto; 
+}
+h3{ 
+    color:#323639;
+    font-size:22px;
+    font-weight: 700;
+}
+/* -------------------
+----Start-navation---*/
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:20px;
+}
+nav>.manu-ber>ul{
+    display:flex;
+    
+}
+nav>.manu-ber>ul>li{
+    list-style-type: none;
+    margin-left:10px;
+}
+nav>.manu-ber>ul>li>a{
+    text-decoration: none;
+    color:#323639;
+    font-weight:700;
+    font-size:18px;
+}
+/* -------------------
+----End-navation---*/
